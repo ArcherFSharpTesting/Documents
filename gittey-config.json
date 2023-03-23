@@ -1,0 +1,31 @@
+{
+    "branchPrefix": {
+        "separator": "",
+        "validator": "",
+        "prefixes": {}
+    },
+    "commitPrefix": {
+        "separator": " ",
+        "validator": "^.{1,45}$",
+        "prefixes": {
+            "edit:": "edit existing docs",
+            "section:": "new section",
+            "new:": "new document",
+            "xsection:": "remove section",
+            "delete:": "remove document",
+            "chore:": "configuration change"
+        }
+    },
+    "verboseMode": false,
+    "aliases": [
+        {
+            "name": "build",
+            "command": "cls"
+        },
+        {
+            "name": "push",
+            "command": "gittey build && gittey commit && git push"
+        }
+    ],
+    "collaborators": []
+}
