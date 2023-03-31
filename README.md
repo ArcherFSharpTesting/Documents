@@ -4,10 +4,10 @@
 
 Everything is in exploration and apt to change.
 
-| Project Name | Short Description |
+| Project Name | Short Description | Unique Capability |
 | ------------ | ----------------- |
-| [Bow](https://github.com/ArcherFSharpTesting/Archer.Bow) | Visual Studio Test Adapter |
-| Quiver | The Test Execution Engine (Used by adapter and in scripts) |
-| Arrow | The Testing Language |
-| Fletching | The Assertion Framework |
-| Archer.CoreTypes | This will hold interfaces that are shared between all the above. |
+| [Bow](https://github.com/ArcherFSharpTesting/Archer.Bow) | Execution Engine | Test Execution |
+| Quiver | Visual Studio Test Adapter | Test Discovery |
+| Arrow | The Testing Language | Test Creation |
+| Fletching | The Assertion Framework | Assertion |
+| Archer.CoreTypes | This will hold interfaces that are shared between all the above. | Test Definitions |
