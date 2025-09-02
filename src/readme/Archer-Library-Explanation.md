@@ -6,11 +6,11 @@
 
 Everything is in exploration and apt to change.
 
-| Project Name | Short Description | Unique Capability | Uses |
-| ------------ | ----------------- | ----------------- | ---- |
-| [Types](https://github.com/ArcherFSharpTesting/Types) | This will hold interfaces that are shared between all the above. | Test Definitions | None |
-| [Reporting](https://github.com/ArcherFSharpTesting/Reporting) | A Logger used to report on Archer test framework | Build Report strings for Core Types | CoreTypes |
-| [Validations](https://github.com/ArcherFSharpTesting/Validations) | The Assertion Framework | Assertion | CoreTypes |
-| [Runner](https://github.com/ArcherFSharpTesting/Runner) | Execution Engine | Test Execution | CoreTypes |
-| [Core](https://github.com/ArcherFSharpTesting/Core) | The Testing Language | Test Creation | CoreTypes |
-| [VSAdapter](https://github.com/ArcherFSharpTesting/VSAdapter) | Visual Studio Test Adapter | Test Discovery | Bow, CoreTypes |
+| Project Name | Short Description | Unique Capability |
+| ------------ | ----------------- | ----------------- |
+| [Types](https://github.com/ArcherFSharpTesting/Types) | Foundational types and interfaces shared across all Archer libraries. | Test Definitions |
+| [Reporting](https://github.com/ArcherFSharpTesting/Reporting) | Formats and outputs test results for Archer, supporting summaries and detailed reports. | Build Report strings for Core Types |
+| [Validations](https://github.com/ArcherFSharpTesting/Validations) | Functional, composable assertion framework returning test results, not exceptions. | Assertion |
+| [Runner](https://github.com/ArcherFSharpTesting/Runner) | Core engine for executing, filtering, and reporting on Archer tests. | Test Execution |
+| [Core](https://github.com/ArcherFSharpTesting/Core) | Main F# testing language for defining, organizing, and running tests. | Test Creation |
+| [VSAdapter](https://github.com/ArcherFSharpTesting/VSAdapter) | Integrates Archer with Visual Studio for test discovery and execution. | Test Discovery |
