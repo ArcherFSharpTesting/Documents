@@ -6,6 +6,8 @@
 
 # Archer F# Testing Framework: Documentation and Library Guide #
 
+## Archer F# Testing Framework: Library Overview ##
+
 # Archer F# Testing Framework: Library Overview
 
 This document provides a high-level overview of the core libraries that make up the Archer F# testing framework. Archer is designed for clarity, composability, and expressiveness, enabling idiomatic F# test authoring and execution.
@@ -89,7 +91,7 @@ Archer.VSAdapter provides integration points for running Archer tests within Vis
 
 For more details, see the individual library READMEs and source files.
 
-# Archer Project Structure and Library Roles
+## Archer Project Structure and Library Roles ##
 
 Everything is in exploration and apt to change.
 

@@ -1,4 +1,8 @@
-# Archer Project Structure and Library Roles
+<!-- (dl
+(section-meta
+    (title Archer Project Structure and Library Roles)
+)
+) -->
 
 Everything is in exploration and apt to change.
 
