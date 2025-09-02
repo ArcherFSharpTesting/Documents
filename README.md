@@ -8,13 +8,12 @@
 
 ## Archer F# Testing Framework: Library Overview ##
 
-# Archer F# Testing Framework: Library Overview
-
 This document provides a high-level overview of the core libraries that make up the Archer F# testing framework. Archer is designed for clarity, composability, and expressiveness, enabling idiomatic F# test authoring and execution.
 
 ---
 
-## Archer.Core
+### Archer.Core ###
+
 Archer.Core is the heart of the Archer framework, providing the main language constructs for defining, organizing, and running tests. It enables:
 - Descriptive, natural-language test names
 - Composable features and sub-features
@@ -34,7 +33,8 @@ let ``Addition should work`` =
 
 ---
 
-## Archer.Types
+### Archer.Types ###
+
 Archer.Types is the foundational types library, providing shared types for assertions, test results, runners, and more. It ensures consistency and type safety across the Archer ecosystem.
 - Public types for test authors (e.g., `TestTag`, `TestResult`, `TestCase`)
 - Internal types for test execution and lifecycle
@@ -43,7 +43,8 @@ Archer.Types is the foundational types library, providing shared types for asser
 
 ---
 
-## Archer.Reporting
+### Archer.Reporting ###
+
 Archer.Reporting handles formatting and outputting test results. It provides:
 - Readable, structured test output
 - Summaries and detailed reports
@@ -52,7 +53,8 @@ Archer.Reporting handles formatting and outputting test results. It provides:
 
 ---
 
-## Archer.Validations
+### Archer.Validations ###
+
 Archer.Validations (Fletcher) provides a functional, composable approach to test assertions. Instead of throwing exceptions, validations return `TestResult` values, supporting:
 - Composability and functional pipelines
 - Object, result, boolean, list, sequence, and array validations
@@ -67,7 +69,8 @@ let result = [1;2;3] |> ListShould.Contain 2
 
 ---
 
-## Archer.Runner
+### Archer.Runner ###
+
 Archer.Runner is the core test execution engine. It supports:
 - Serial and parallel test execution
 - Filtering by tags or categories
@@ -84,7 +87,8 @@ let report = runner.Run()
 
 ---
 
-## Archer.VSAdapter
+### Archer.VSAdapter ###
+
 Archer.VSAdapter provides integration points for running Archer tests within Visual Studio and other compatible environments. (See the library for details.)
 
 ---
