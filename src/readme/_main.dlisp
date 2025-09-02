@@ -6,4 +6,4 @@
     )
 )
 
-(content)
+(content (toc numbered-labeled))

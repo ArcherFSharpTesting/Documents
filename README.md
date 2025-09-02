@@ -6,6 +6,9 @@
 
 # Archer F# Testing Framework: Documentation and Library Guide #
 
+1. Section: [Archer F# Testing Framework: Library Overview](#archer-f-testing-framework-library-overview)
+2. Section: [Archer Project Structure and Library Roles](#archer-project-structure-and-library-roles)
+
 ## Archer F# Testing Framework: Library Overview ##
 
 This document provides a high-level overview of the core libraries that make up the Archer F# testing framework. Archer is designed for clarity, composability, and expressiveness, enabling idiomatic F# test authoring and execution.
