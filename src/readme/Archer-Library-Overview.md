@@ -48,7 +48,7 @@ Archer.Reporting handles formatting and outputting test results. It provides:
 ---
 
 <!-- (dl (# Archer.Validations)) -->
-Archer.Validations (Fletcher) provides a functional, composable approach to test assertions. Instead of throwing exceptions, validations return `TestResult` values, supporting:
+Archer.Validations (also known as Archer.Fletching) provides a functional, composable approach to test assertions. Instead of throwing exceptions, validations return `TestResult` values, supporting:
 - Composability and functional pipelines
 - Object, result, boolean, list, sequence, and array validations
 - Approval (golden master) testing
