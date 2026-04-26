@@ -3,4 +3,10 @@
         (source ./readme/_main.dlisp)
         (output ../README.md)
     )
+    (document
+        (language-guide
+            (source ./language_guide/_main.md)
+            (output ../Archer-Language-Guide.md)
+        )
+    )
 )

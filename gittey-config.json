@@ -20,7 +20,7 @@
     "aliases": [
         {
             "name": "build",
-            "command": "cls"
+            "command": "cls; doculisp ./src/_project.dlproj"
         },
         {
             "name": "push",
